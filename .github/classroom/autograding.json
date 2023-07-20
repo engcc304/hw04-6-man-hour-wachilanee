@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-6-man-hour.cpp",
+      "run": "./a.out",
+      "input": "0342\r\n8\r\n15000",
+      "output": "Expected Output:\r\nEmployees ID = 0342\r\nSalary = U$ 120,000.00",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-6-man-hour.cpp",
+      "run": "./a.out",
+      "input": "0000500349\r\n11\r\n34000\r\n",
+      "output": "Expected Output:\r\nEmployees ID = 0000500349\r\nSalary = U$ 374,000.00",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
