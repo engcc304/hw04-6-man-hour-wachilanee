@@ -40,10 +40,9 @@ int main()
     scanf("%d", &Work_hrs) ;
     printf("Please Enter your Salary : " ) ;
     scanf("%f", &Salary);
-    Salary = Salary * Work_hrs ;
     setlocale(LC_NUMERIC, "") ;
     printf("Employees ID = %s\n", ID ) ;
-    printf("Salary = U$ %'.2f", Salary) ; 
+    printf("Salary = U$ %'.2f", Salary * Work_hrs) ; 
     return 0;
 }
 
