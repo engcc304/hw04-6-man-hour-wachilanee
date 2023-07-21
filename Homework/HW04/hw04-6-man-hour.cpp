@@ -41,6 +41,7 @@ int main()
     printf( "Please Enter your Salary : " ) ;
     scanf( "%f", &Salary);
     setlocale(LC_NUMERIC, "") ;
+    printf("Expected Output:\n") ;
     printf( "Employees ID = %s\n", ID ) ;
     printf( "Salary = U$ %'.2f", Salary * Work_hrs ) ; 
     return 0;
