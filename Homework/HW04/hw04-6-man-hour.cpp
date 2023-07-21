@@ -43,7 +43,7 @@ int main()
     Salary = Salary * Work_hrs ;
     printf("Employees ID = %s\n", ID ) ;
     setlocale(LC_NUMERIC, "") ;
-    printf("Salary = U$ %'.2f", Salary) ;
+    printf("Salary = U$ %'.2f", Salary) ; 
     return 0;
 }
 
