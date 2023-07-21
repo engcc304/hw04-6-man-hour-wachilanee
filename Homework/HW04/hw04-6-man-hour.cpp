@@ -27,7 +27,6 @@
         Salary = U$ 374,000.00
 */
 
-#include <stdio.h>
 #include <locale.h>
 int main()
 {
@@ -42,7 +41,7 @@ int main()
     scanf("%f", &Salary);
     setlocale(LC_NUMERIC, "") ;
     printf("Employees ID = %s\n", ID ) ;
-    printf("Salary = U$ %'.2f", Salary * Work_hrs) ; 
+    printf("Salary = U$ %'.2f", Salary * Work_hrs ) ; 
     return 0;
 }
 
