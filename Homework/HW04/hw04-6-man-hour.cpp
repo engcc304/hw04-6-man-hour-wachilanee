@@ -26,3 +26,24 @@
         Employees ID = 0000500349
         Salary = U$ 374,000.00
 */
+
+#include <stdio.h>
+#include <locale.h>
+int main()
+{
+    char ID[10] ;
+    int Work_hrs = 0 ;
+    float Salary = 0 ;
+    printf("Please Enter your ID : " ) ;
+    scanf("%s", ID) ;
+    printf("Please Enter your working(hrs) : " ) ;
+    scanf("%d", &Work_hrs) ;
+    printf("Please Enter your Salary : " ) ;
+    scanf("%f", &Salary);
+    Salary = Salary * Work_hrs ;
+    printf("Employees ID = %s\n", ID ) ;
+    setlocale(LC_NUMERIC, "") ;
+    printf("Salary = U$ %'.2f", Salary) ;
+    return 0;
+}
+
